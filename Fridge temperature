@@ -1,0 +1,13 @@
+
+// using potentiometer to change the intensity of LED
+
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(A0, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(A0, HIGH);   // turn the LED on (HIGH is the voltage level)
+                       // wait for a second
+}
